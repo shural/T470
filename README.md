@@ -1,5 +1,9 @@
 # T470
 
+Not working
+* USB-C/DP Digital Sound does not work. Quick workaround - close and open the lid.
+* Headphone Jack noise. Layout-id set to 21, 22, 29, 30 works better but still noise after a few seconds.
+
 Working
 * Storage extension. 
   * LITEON 11Plus works. Samsung 960Pro or Samsung 970 Pro/Evo.Evo Plus does not work. Patches at https://github.com/RehabMan/patch-nvme are not required.
