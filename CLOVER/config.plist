@@ -261,7 +261,7 @@
 			<dict>
 				<key>device-id</key>
 				<data>
-				cJ0AAA==
+				cKEAAA==
 				</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
@@ -320,15 +320,11 @@
 				<data>
 				AAgAAA==
 				</data>
-				<key>framebuffer-con2-busid</key>
+				<key>framebuffer-con1-busid</key>
 				<data>
-				AgAAAA==
+				BAAAAA==
 				</data>
 				<key>framebuffer-con2-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con2-index</key>
 				<data>
 				AQAAAA==
 				</data>
@@ -338,11 +334,19 @@
 				</data>
 				<key>framebuffer-con2-type</key>
 				<data>
-				AAgAAA==
+				AAQAAA==
+				</data>
+				<key>framebuffer-con2-busid</key>
+				<data>
+				AgAAAA==
+				</data>
+				<key>framebuffer-con2-index</key>
+				<data>
+				AQAAAA==
 				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
-				AACQAA==
+				AAAAAw==
 				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
