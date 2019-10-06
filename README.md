@@ -1,8 +1,9 @@
 # T470
 
 Not working
-* USB-C/DP Digital Sound does not work. Quick workaround - close and open the lid.
+* Thunderbolt USB-C/DP Digital Sound does not work. Quick workaround - close and open the lid.
 * Headphone Jack noise. Layout-id set to 21, 22, 29, 30 works better but still noise after a few seconds.
+* Thunderbolt USB extension does not work. Need to try IOElectiry.kext. Might need to add 8086:15C1 to info.plist
 
 Working
 * Storage extension. 
