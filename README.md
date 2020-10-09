@@ -31,6 +31,8 @@ Working
   * Bluetooth issue after sleep fixed. Note PID = 0x6417 (25623), VID = 0x0a5c (2652), as shown in USB device Tree. http://ryancuda.blogspot.com/2015/08/how-to-fix-bluetooth-after-sleep-on.html
   * Updated driver as BrcmFirmwareRepo and BrcmPatchRAM2. Seems working again even after sleep. Note BrcmFirmwareRepo is more memory efficient than BrcmFirmwareData, however it MUST be install to /Library/Extension on 10.11+ to prevent bluetooth disappear after sleep.
   * DW1830 is all out of stock.
+  * After upgrading to Catalina 10.15.7, Bluetooth disappears again after sleep wake cycle. Instead of failing updating /System/Library/Extensions/IOBluetoothFamily.kext/Contents/PlugIns/BroadcomBluetoothHostControllerUSBTransport.kext/Contents/Info.plist and rebuilding cache (kext does not authenticate, omitting), copy the same IOBluetoothFamily to /L*/E*, and then patch kext plist in config.plist.
+
 * Windows virtual machine. Fix Windows boot after ghost on both Paralles and VMWare.
   * http://www.xitongzhijia.net/xtjc/20170903/106026.html; and https://www.cnblogs.com/bdzwater/p/5516674.html. 
 
