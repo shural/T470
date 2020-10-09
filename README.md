@@ -28,7 +28,7 @@ Working
   * Touch screen works. Add "HS10"... to SSDT-UIAC.dsl
   * Trackpoint disabled - not ergo anyway
 * Wireless and bluetooth (DW1560)
-  * Bluetooth issue after sleep fixed. Note PID = 0x6417, VID = 0x0a5c, as shown in USB device Tree. http://ryancuda.blogspot.com/2015/08/how-to-fix-bluetooth-after-sleep-on.html
+  * Bluetooth issue after sleep fixed. Note PID = 0x6417 (25623), VID = 0x0a5c (2652), as shown in USB device Tree. http://ryancuda.blogspot.com/2015/08/how-to-fix-bluetooth-after-sleep-on.html
   * Updated driver as BrcmFirmwareRepo and BrcmPatchRAM2. Seems working again even after sleep. Note BrcmFirmwareRepo is more memory efficient than BrcmFirmwareData, however it MUST be install to /Library/Extension on 10.11+ to prevent bluetooth disappear after sleep.
   * DW1830 is all out of stock.
 * Windows virtual machine. Fix Windows boot after ghost on both Paralles and VMWare.
